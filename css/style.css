@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Gowun Batang', serif;
+    color: white;
+}
+
+html {
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.light {
+    color: white;
+    text-decoration: underline;
+}
+
+#mynavigation {
+    background: none;
+    border: none;
+    background-image: url(../img/megacrop/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#mynavigation a {
+    color: white;
+}
+
+#mynavigation ul .activ {
+    background-color: blue;
+}
+
+#mynavigation .navbar-brand {
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.banner .bttn {
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*section*/
+
+section {
+    padding-top: 3%;
+}
+
+.second-section h2 {
+    font-size: 1.5rem;
+}
+
+.second-section span {
+    font-size: 2rem;
+}
+
+.second-section p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: gray;
+}
+
+.btn {
+    width: 110px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*main*/
+
+main {
+    padding-top: 5%;
+}
+
+
+/*left*/
+
+
+/*first*/
+
+.first h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.first p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: gray;
+    margin-top: 1.2rem;
+}
+
+.first hr {
+    margin: 2rem 0;
+}
+
+
+/*one,two*/
+
+.one p,
+.two p {
+    color: gray;
+    line-height: 1.8rem;
+}
+
+.one .s-btn {
+    width: 110px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.one .each {
+    margin: 2rem 0;
+}
+
+.one .bold {
+    color: white;
+    font-weight: 900;
+    margin-left: -2rem;
+}
+
+.one hr {
+    margin: 2rem 0;
+}
+
+.two .bolder,
+.two .bolder1 {
+    color: white;
+    font-weight: 900;
+}
+
+
+/*right*/
+
+
+/*nulaa*/
+
+.nulla ul {
+    margin-top: 2rem;
+}
+
+.nulla ul li {
+    color: gray;
+    margin-top: 1.2rem;
+}
+
+.nulla hr {
+    margin-top: 1rem;
+}
+
+
+/*ipsum*/
+
+.ipsum h2 {
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/*bottom*/
+
+.bottom img {
+    border-radius: 5px;
+}
+
+.bottom p {
+    color: gray;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+.bottom hr {
+    margin-bottom: 1.5rem;
+}
+
+.bottom .hide {
+    display: inline-block;
+}
+
+.bottom .l-btn {
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+
+
+/*footer*/
+
+footer {
+    color: white;
+    padding: 2% 0;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+    margin-top: 1.6rem;
+}
+
+@media (max-width:1200px) {
+    /*banner*/
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+    .banner p {
+        font-size: 1rem;
+    }
+    .bottom .hide {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    #mynavigation .navbar-toggle {
+        background: none;
+        border: none;
+    }
+    #mynavigation ul .activ {
+        background: none;
+    }
+    #mynavigation ul li:hover {
+        background-color: blue;
+    }
+    #mynavigation ul li {
+        margin-top: 1rem;
+    }
+    /*banner*/
+    .banner h1 {
+        font-size: 1.2rem;
+    }
+    .banner p {
+        font-size: 0.8rem;
+    }
+    .banner .bttn {
+        width: 120px;
+        height: 40px;
+    }
+    /*section*/
+    section {
+        padding-top: 7%;
+    }
+    .second-section {
+        margin-bottom: 5rem;
+    }
+    .second-section h2 {
+        font-size: 1.2rem;
+    }
+    .second-section span {
+        font-size: 1.7rem;
+    }
+    .second-section p {
+        font-size: 0.8rem;
+    }
+    .btn {
+        width: 110px;
+        height: 30px;
+    }
+    /*main*/
+    /*first*/
+    .first h2 {
+        font-size: 1.4rem;
+    }
+    .first p {
+        font-size: 0.8rem;
+        line-height: 1.8rem;
+    }
+    /*one,two*/
+    .one,
+    .two {
+        margin-top: 4rem;
+    }
+    .one h2,
+    .two h2 {
+        font-size: 1.2rem;
+    }
+    .one p,
+    .two p {
+        font-size: 0.8rem;
+    }
+    .one .s-btn {
+        width: 90px;
+        height: 30px;
+    }
+    /*right*/
+    .right {
+        margin-left: -1rem;
+    }
+    /*nulla*/
+    .nulla {
+        margin-top: 2rem;
+    }
+    .ipsum {
+        margin-top: 2rem;
+    }
+    /*bottom*/
+    .bottom {
+        margin-top: 2rem;
+    }
+    .bottom p {
+        font-size: 0.8rem;
+    }
+    /*footer*/
+    footer p {
+        font-size: 0.8rem;
+    }
+}
